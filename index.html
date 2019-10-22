@@ -1,3 +1,9 @@
+$scheme = isset($_SERVER['REQUEST_SCHEME']) ? $_SERVER['REQUEST_SCHEME'] : '';
+
+if(($scheme === 'http')){
+    header('HTTP/1.1 301 Moved Permanently');
+    header('Location:https://www.sscuu.cn/' . $_SERVER['REQUEST_URI']);
+}
 <?php require('anti_ddos/start.php');?>
 <!DOCTYPE html>
 <html>
