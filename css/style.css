@@ -126,7 +126,7 @@ position: absolute;
 	float: left;
 	background: #ffffff;
 	min-height: 400px;
-	width: 48%;
+	width: 100%;
 	margin: 0% auto 0 auto;
 	position: relative;
 	margin-right: 50px;
@@ -211,7 +211,7 @@ a.behance:hover {
 	float: right;
 	background:#ffffff;
 	min-height: 400px;
-	width: 48%;
+	width: 100%;
 	margin: 0% auto 0% auto;
 	position: relative;
 	float: left;
@@ -490,7 +490,7 @@ ul.tab_list li a:hover {
 }
 .map {
   background: #ffffff;
-  min-height: 400px;
+  min-height: 480px;
   width: 48%;
   margin: 4% auto 0% auto;
   float: right;
