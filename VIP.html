@@ -1,0 +1,149 @@
+﻿
+
+<html>
+<style type="text/css">
+div#div1{
+    position:fixed;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    z-index:-1;
+}
+div#div1 > img {
+    height:100%;
+    width:100%;
+    border:0;
+}         
+</style>
+ 
+<body>
+<div id="div1"><img src="http://bbs.ny.syyx.com/data/attachment/forum/201710/27/021008sv61gg56edx5v55z.jpg" /></div>
+<div >
+
+</div>
+</body>
+</html>
+<title>VIP视频解析-sscuu.cn</title>
+<div style="text-align:center;">
+	<span style="line-height:1.5;font-size:16px;color:#4C33E5;font-family:SimHei;">VIP视频解析支持爱奇艺，芒果TV，优酷，腾讯，乐视等<span style="font-size:10px;color:#FFFFFF;background-color:#FF9900;">sscuu.cn</span></span>
+</div>
+<html lang="zh-CN">
+<script>
+var num=0
+function Clo()
+{
+document.getElementById("video_iframe").src ="https://s2.ax1x.com/2019/10/25/KayO29.jpg";
+}
+function Tip()
+{var link = document.getElementById('link').value;
+ var jiexi = document.getElementById('jiexi').value;
+document.getElementById("video_iframe").src = jiexi + link;
+num=0;
+}
+function Keytest(event)
+{
+if(event.keyCode==13)
+{
+alert("提交视频地址后，按Alt+数字1-6选择解析接口")
+};
+if(event.keyCode==18)
+{
+num=1
+};
+if (num==1)
+{
+if(event.keyCode==49|event.keyCode==97)
+{var link = document.getElementById('link').value;
+document.getElementById("video_iframe").src ='http://www.ibb6.com/sigu/?url=' + link;
+num=0;
+}
+
+if(event.keyCode==50|event.keyCode==98)
+{var link = document.getElementById('link').value;
+document.getElementById("video_iframe").src ='http://api.baiyug.cn/vip/index.php?url=' + link;
+num=0;
+}
+
+if(event.keyCode==51|event.keyCode==99)
+{var link = document.getElementById('link').value;
+document.getElementById("video_iframe").src ='http://jx.api.163ren.com/vod.php?url=' + link;
+num=0;
+}
+
+if(event.keyCode==52|event.keyCode==100)
+{var link = document.getElementById('link').value;
+document.getElementById("video_iframe").src ='http://www.dgua.xyz/webcloud/?url=' + link;
+num=0;
+}
+
+if(event.keyCode==53|event.keyCode==101)
+{var link = document.getElementById('link').value;
+document.getElementById("video_iframe").src ='http://j.zz22x.com/jx/?url=' + link;
+num=0;
+}
+
+if(event.keyCode==54|event.keyCode==102)
+{var link = document.getElementById('link').value;
+document.getElementById("video_iframe").src ='http://api.1008net.com/v.php?url=' + link;
+num=0;
+}
+
+if(event.keyCode==54|event.keyCode==103)
+{var link = document.getElementById('link').value;
+document.getElementById("video_iframe").src ='http://www.m1080p.com/0cms/?id=' + link;
+num=0;
+}
+
+if(event.keyCode==54|event.keyCode==104)
+{var link = document.getElementById('link').value;
+document.getElementById("video_iframe").src ='https://jx.maoyun.tv/index.php?id=' + link;
+num=0;
+}
+
+if(event.keyCode==54|event.keyCode==105)
+{var link = document.getElementById('link').value;
+document.getElementById("video_iframe").src ='http://player.jidiaose.com/supapi/iframe.php?v=' + link;
+num=0;
+}
+
+if(event.keyCode==54|event.keyCode==106)
+{var link = document.getElementById('link').value;
+document.getElementById("video_iframe").src ='http://www.0335haibo.com/yun.php?url=' + link;
+num=0;
+}
+}
+
+}
+
+
+</script>
+<body onkeydown="Keytest(event)" & onkeyup="keyup()">
+<div style="overflow:hidden; margin: 20px auto; width:802px;">
+<iframe id="video_iframe" src="https://s2.ax1x.com/2019/10/25/KayO29.jpg" style="height:506px;width:802px;frameborder:0;marginheight:0px;marginwidth:0px;background:#000000;border:0">
+   </iframe>
+</div >
+<div style="overflow:hidden; margin: 0 auto; width:802px;">
+<select class="form-control input-lg" id="jiexi" style="height:44px;line-height:30px;border:1px solid #00a0e9;margin-right:10px;width:90px;display:block;float:left;border-radius:0">
+<option value="https://www.heimijx.com/jx/jx/?url=">接口1</option>
+<option value="https://5.5252e.com/jx.php?url=">接口2</option>
+<option value="https://pangu.redlily.cn/jiexi.php?url=">接口3</option>
+<option value="https://api.isoyu.com/ckplayer/?url=">接口4</option>
+<option value="https://www.1717yun.com/jx/ty.php?url=">接口5</option>
+<option value="https://jx.618g.com/?url=">接口6</option>
+<option value="https://vip.zz22x.com/jx/?url=">接口7</option>
+<option value="http://www.daidaijx.cn/vv1/?v=">接口8</option>
+<option value="http://jiexi.071811.cc/jx-new.php?url=">接口9</option>
+<option value="http://5.5252e.com/2/?url=">接口10</option>
+<option value="https://jiexi.071811.cc/jx-new.php?url=">接口11</option>
+<option value="http://api2.drgxj.com/?url=">接口12</option>
+<option value="http://okjx.cc/?url=">接口13</option>
+</select>
+<input type="text" id="link" style="border:1px solid #00a0e9; width:492px; line-height:30px; padding:6px; display:block; float:left;" placeholder="在此粘贴视频地址！" />
+<input type="submit" style="width:90px; line-height:40px; background-color:#00a0e9; border:1px solid #00a0e9; display:block; float:right; color:#fff;" value="关闭视频" onclick="Clo()" />
+<input type="submit" style="width:100px; line-height:40px; background-color:#00a0e9; border:1px solid #00a0e9; display:block; float:right; color:#fff;margin:0 10px;" value="提交视频地址" onclick="Tip()" />
+<input style="width:802px; line-height:30px; background-color:#63b3ff; border:0; display:block; float:right; color:#fff;margin:20px auto;" value="    在上方输入视频地址后选择1-6解析接口后即可观看。    VIP视频支持爱奇艺，芒果TV，优酷，腾讯，乐视等" />
+</div>
+<script type="text/javascript" async src="//idm-su.baidu.com/su.js"></script>
+</body>
+</html>
